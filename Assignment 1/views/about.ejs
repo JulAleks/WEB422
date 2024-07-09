@@ -1,0 +1,81 @@
+<!--********************************************************************************
+ * WEB422 – Assignment 01
+ * File: about.ejs
+ * Name: Julia Alekseev Student ID: 051292134 Date: June 09, 2024
+ ********************************************************************************-->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- header -->
+  <%- include('partials/head') %>
+  <body>
+    <!-- nav bar -->
+    <%- include('partials/nav') %>
+    <!-- ***** body  ***** -->
+    <div class="container">
+      <div class="page-heading">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 header-text">
+            <div class="white">
+              <div class="container mt-5">
+                <h1>About Assignment 1</h1>
+                <p>
+                  This assignment represents a basic library system for the
+                  WEB422 course. It includes the required book CRUD operations
+                  and the endpoints for borrowing and returning books. The
+                  assignment uses Express, Mongoose, body-parser, and CORS.
+                  <br />
+                  <br />
+                  As per the instructions, there is no authentication of users,
+                  as it will be developed in subsequent assignments.
+                  Additionally, books can be deleted by anyone due to the lack
+                  of authentication. Errors are thrown as responses, console
+                  logs, and presented in the UI, such as when a wrong user tries
+                  to return or reserve a book, reserving books retroactively, or
+                  trying to return a book past the due date. I acknowledge these
+                  limitations and aim to fix them in future assignments.
+                </p>
+                <h5><u>Current Users in the Database</u></h5>
+                <br />
+                <table class="table table-striped">
+                  <thead>
+                    <tr>
+                      <th>User ID</th>
+                      <th>Name</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>1010</td>
+                      <td>Julia</td>
+                    </tr>
+                    <tr>
+                      <td>2020</td>
+                      <td>Navid</td>
+                    </tr>
+                    <tr>
+                      <td>3030</td>
+                      <td>John</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <p>
+                  For the user interface, I used Bootstrap's SnapX theme from
+                  <a href="https://themewagon.com/themes/snapx/">SnapX Theme</a
+                  >. Some CSS was modified to improve the UI for the assignment.
+                  I liked the theme because it resembled a gallery of photos,
+                  which I thought could represent a book gallery. I decided to
+                  keep the original color scheme because blue is a
+                  non-threatening color associated with trust, relaxation, and
+                  tranquility. I chose a classic book library theme; therefore,
+                  the name is Classic Library Vault. The logo was designed by me
+                  to provide a personal touch.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div><%- include('partials/navFoot') %></div>
+  </body>
+</html>

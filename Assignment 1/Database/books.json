@@ -1,0 +1,182 @@
+[
+  {
+    "book_id": 1,
+    "title": "The Catcher in the Rye",
+    "author": "J.D. Salinger",
+    "ISBN": "9780316769488",
+    "brief_explanation": "This classic novel follows the experiences of Holden Caulfield, a young man who leaves his prep school in Pennsylvania and goes underground in New York City for three days.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780316769488",
+    "on_loan": false
+  },
+  {
+    "book_id": 2,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "ISBN": "9780061120084",
+    "brief_explanation": "A novel about the serious issues of rape and racial inequality narrated by the young Scout Finch.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780061120084",
+    "on_loan": true
+  },
+  {
+    "book_id": 3,
+    "title": "1984",
+    "author": "George Orwell",
+    "ISBN": "9780451524935",
+    "brief_explanation": "A dystopian social science fiction novel and cautionary tale about the dangers of totalitarianism.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780451524935",
+    "on_loan": false
+  },
+  {
+    "book_id": 4,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "ISBN": "9780141439518",
+    "brief_explanation": "A romantic novel that charts the emotional development of the protagonist Elizabeth Bennet.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780141439518",
+    "on_loan": false
+  },
+  {
+    "book_id": 5,
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "ISBN": "9780743273565",
+    "brief_explanation": "A novel about the American dream and the roaring twenties, narrated by Nick Carraway.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780743273565",
+    "on_loan": false
+  },
+  {
+    "book_id": 6,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "ISBN": "9780142437247",
+    "brief_explanation": "The story of Captain Ahab's obsessive quest to kill the giant white sperm whale, Moby Dick.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780142437247",
+    "on_loan": false
+  },
+  {
+    "book_id": 7,
+    "title": "War and Peace",
+    "author": "Leo Tolstoy",
+    "ISBN": "9780199232765",
+    "brief_explanation": "A novel that chronicles the history of the French invasion of Russia and the impact of the Napoleonic era.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780199232765",
+    "on_loan": false
+  },
+  {
+    "book_id": 8,
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "ISBN": "9780345339683",
+    "brief_explanation": "A fantasy novel and prelude to The Lord of the Rings, following the adventures of Bilbo Baggins.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780345339683",
+    "on_loan": false
+  },
+  {
+    "book_id": 9,
+    "title": "Crime and Punishment",
+    "author": "Fyodor Dostoevsky",
+    "ISBN": "9780143058144",
+    "brief_explanation": "A psychological drama focusing on the moral dilemmas of a young impoverished ex-student in Saint Petersburg.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780143058144",
+    "on_loan": false
+  },
+  {
+    "book_id": 10,
+    "title": "The Brothers Karamazov",
+    "author": "Fyodor Dostoevsky",
+    "ISBN": "9780374528379",
+    "brief_explanation": "A philosophical novel that enters deeply into the ethical debates of God, free will, and morality.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780374528379",
+    "on_loan": false
+  },
+  {
+    "book_id": 11,
+    "title": "The Master and Margarita",
+    "author": "Mikhail Bulgakov",
+    "ISBN": "9780679760801",
+    "brief_explanation": "A novel intertwining the story of the Devil visiting Soviet Russia with a story set in ancient Jerusalem.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780679760801",
+    "on_loan": false
+  },
+  {
+    "book_id": 12,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "ISBN": "9780060850524",
+    "brief_explanation": "A dystopian novel set in a futuristic World State of genetically modified citizens and an intelligence-based social hierarchy.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780060850524",
+    "on_loan": false
+  },
+  {
+    "book_id": 13,
+    "title": "Anna Karenina",
+    "author": "Leo Tolstoy",
+    "ISBN": "9780143035008",
+    "brief_explanation": "A tragic story of a married aristocrat and her affair with the affluent Count Vronsky.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780143035008",
+    "on_loan": false
+  },
+  {
+    "book_id": 14,
+    "title": "The Odyssey",
+    "author": "Homer",
+    "ISBN": "9780140268867",
+    "brief_explanation": "An epic poem that follows the hero Odysseus on his journey home after the Trojan War.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780140268867",
+    "on_loan": false
+  },
+  {
+    "book_id": 15,
+    "title": "One Hundred Years of Solitude",
+    "author": "Gabriel Garcia Marquez",
+    "ISBN": "9780060883287",
+    "brief_explanation": "A multi-generational story of the Buendía family and the town of Macondo.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780060883287",
+    "on_loan": false
+  },
+  {
+    "book_id": 16,
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "ISBN": "9780141439570",
+    "brief_explanation": "A philosophical novel about a young man whose portrait ages instead of him.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780141439570",
+    "on_loan": false
+  },
+  {
+    "book_id": 17,
+    "title": "The Grapes of Wrath",
+    "author": "John Steinbeck",
+    "ISBN": "9780143039433",
+    "brief_explanation": "A story about the Joads, an impoverished family from the Dust Bowl region, traveling to California.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780143039433",
+    "on_loan": false
+  },
+  {
+    "book_id": 18,
+    "title": "Wuthering Heights",
+    "author": "Emily Bronte",
+    "ISBN": "9780141439556",
+    "brief_explanation": "A story of love and revenge between the Earnshaws and the Lintons.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780141439556",
+    "on_loan": false
+  },
+  {
+    "book_id": 19,
+    "title": "Don Quixote",
+    "author": "Miguel de Cervantes",
+    "ISBN": "9780060934347",
+    "brief_explanation": "A novel about the adventures of a man who decides to become a knight-errant.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780060934347",
+    "on_loan": false
+  },
+  {
+    "book_id": 20,
+    "title": "Jane Eyre",
+    "author": "Charlotte Bronte",
+    "ISBN": "9780142437209",
+    "brief_explanation": "A novel that follows the experiences of its eponymous heroine, including her growth to adulthood and her love for Mr. Rochester.",
+    "photo_link": "https://images.penguinrandomhouse.com/cover/9780142437209",
+    "on_loan": false
+  }
+]

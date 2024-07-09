@@ -1,0 +1,80 @@
+<!--********************************************************************************
+ * WEB422 – Assignment 01
+ * File: addBook.ejs
+ * Name: Julia Alekseev Student ID: 051292134 Date: June 09, 2024
+ ********************************************************************************-->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- header -->
+  <%- include('partials/head') %>
+  <body>
+    <!-- nav bar -->
+    <%- include('partials/nav') %>
+
+    <!-- ***** body  ***** -->
+    <div class="container">
+      <div class="page-heading">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 header-text">
+            <div class="white">
+              <h1>ADD NEW BOOK</h1>
+              <br />
+              <div>
+                <form action="/api/books" method="post">
+                  <label for="title">Title:</label><br />
+                  <input
+                    type="text"
+                    id="title"
+                    name="title"
+                    required
+                  /><br /><br />
+
+                  <label for="author">Author:</label><br />
+                  <input
+                    type="text"
+                    id="author"
+                    name="author"
+                    required
+                  /><br /><br />
+
+                  <label for="ISBN">ISBN:</label><br />
+                  <input
+                    type="text"
+                    id="ISBN"
+                    name="ISBN"
+                    required
+                  /><br /><br />
+
+                  <label for="brief_explanation">Brief Explanation:</label
+                  ><br />
+                  <textarea
+                    id="brief_explanation"
+                    name="brief_explanation"
+                    rows="4"
+                    cols="50"
+                    required
+                  ></textarea
+                  ><br /><br />
+
+                  <label for="photo_link">Photo Link:</label><br />
+                  <input
+                    type="url"
+                    id="photo_link"
+                    name="photo_link"
+                    required
+                  /><br /><br />
+
+                  <input type="submit" value="Add Book" />
+                  <br /><br />
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div><%- include('partials/navFoot') %></div>
+  </body>
+</html>

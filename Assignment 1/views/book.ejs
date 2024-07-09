@@ -1,0 +1,70 @@
+<!--********************************************************************************
+ * WEB422 – Assignment 01
+ * File: book.ejs
+ * Name: Julia Alekseev Student ID: 051292134 Date: June 09, 2024
+ ********************************************************************************-->
+<!-- ***** BOOK  ***** -->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- header -->
+  <%- include('partials/head') %>
+
+  <body>
+    <!-- ***** navbar  ***** -->
+    <%- include('partials/nav', { page: '/book' }) %>
+
+    <!-- ***** books bg  ***** -->
+    <div class="page-heading mb-3"></div>
+
+    <!-- ***** container  ***** -->
+    <div class="container">
+      <table class="table table-striped table-bordered">
+        <thead>
+          <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>ISBN</th>
+            <th>Brief Explanation</th>
+            <th>Photo</th>
+            <th>Availability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><%= book.title %></td>
+            <td><%= book.author %></td>
+            <td><%= book.ISBN %></td>
+            <td><%= book.brief_explanation %></td>
+            <td>
+              <img
+                src="<%= book.photo_link %>"
+                alt="<%= book.title %> cover"
+                class="img-fluid"
+                width="100"
+              />
+            </td>
+            <td>
+              <% if (!book.on_loan) { %>
+              <a href="/reserve" class="btn btn_yes mt-auto">Reserve Now</a>
+              <% } else { %>
+              <p class="no">On Loan</p>
+              <% } %>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <a href="/books" class="btn btn-primary mt-auto">Back to Books</a>
+      <br /><br />
+      <form
+        action="/api/books/delete/<%= book.book_id %>"
+        method="POST"
+        onsubmit="return confirm('Are you sure you want to delete this book?');"
+      >
+        <button type="submit" class="btn btn_del mt-auto">Delete Book</button>
+      </form>
+    </div>
+
+    <!-- ***** footer ***** -->
+    <div><%- include('partials/navFoot') %></div>
+  </body>
+</html>

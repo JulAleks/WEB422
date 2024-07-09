@@ -1,0 +1,55 @@
+<!--********************************************************************************
+ * WEB422 – Assignment 01
+ * File: books.ejs
+ * Name: Julia Alekseev Student ID: 051292134 Date: June 09, 2024
+ ********************************************************************************-->
+<!DOCTYPE html>
+<html lang="en">
+  <!-- header -->
+  <%- include('partials/head') %>
+
+  <body>
+    <!-- ***** navbar  ***** -->
+    <%- include('partials/nav', { page: '/books' }) %>
+    <!-- ***** books bg  ***** -->
+    <div class="page-heading" style="margin-bottom: 20px"></div>
+    <!-- ***** container  ***** -->
+    <div class="container">
+      <!-- ***** cards  ***** -->
+      <div class="contest-card">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h3>Books Waiting For You:</h3>
+              <br />
+            </div>
+            <% books.forEach(book => { %>
+            <div class="col-lg-3 col-sm-6 d-flex align-items-stretch">
+              <div class="card" style="width: 100%; margin-bottom: 20px">
+                <img
+                  class="card-img-top"
+                  src="<%= book.photo_link %>"
+                  alt="<%= book.title %> image"
+                />
+                <div class="card-body d-flex flex-column">
+                  <h5 class="card-title"><%= book.title %></h5>
+                  <p class="card-text">
+                    <strong>Author:</strong> <%= book.author %><br />
+                    <strong>ISBN:</strong> <%= book.ISBN %><br />
+                    <strong>Availability:</strong> <%= !book.on_loan ?
+                    'Available for rent' : 'Currently on loan' %>
+                  </p>
+                  <a href="/book/<%= book.id %>" class="btn btn-primary mt-auto"
+                    >Read</a
+                  >
+                </div>
+              </div>
+            </div>
+            <% }); %>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div><%- include('partials/navFoot') %></div>
+  </body>
+</html>

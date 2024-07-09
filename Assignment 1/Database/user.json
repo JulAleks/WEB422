@@ -1,0 +1,20 @@
+[
+  {
+    "user_id": 1010,
+    "name": "Julia",
+    "email": "julia@seneca.ca",
+    "role": "admin"
+  },
+  {
+    "user_id": 2020,
+    "name": "Navid",
+    "email": "navid@seneca.ca",
+    "role": "user"
+  },
+  {
+    "user_id": 3030,
+    "name": "John",
+    "email": "john@seneca.ca",
+    "role": "user"
+  }
+]

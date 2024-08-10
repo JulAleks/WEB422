@@ -7,7 +7,7 @@ const mongoose = require("mongoose"); // Import mongoose for MongoDB connection
 
 // Connection string
 const DB =
-  "mongodb+srv://yaeljulia:j1986@julz.em9nwqz.mongodb.net/webLibrary?retryWrites=true&w=majority&appName=Julz";
+  "mongodb+srv://**********************************";
 
 // Caching to avoid reconnecting
 let cached = global.mongoose;
